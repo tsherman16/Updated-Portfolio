@@ -153,6 +153,15 @@ body {
     padding: 30px;
     margin: 0 0 40px;
   }
+
+  #image-of-me {
+      width: 30%;
+  }
+
+  #aboutMe-body {
+      font-size: 15px;
+      line-height: 2;
+  }
   
   /* portfolio page */
   
@@ -167,11 +176,10 @@ body {
   .work:nth-child(even) {
     margin-right: 40px;
   }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
+
+  #portfolio-image {
+      height: 200px;
+      width: 100%;
   }
   
   .work h3 {
@@ -190,8 +198,6 @@ body {
   
   .auth-image {
     float: left;
-    width: 200px;
-    height: auto;
     margin-top: 10px;
     margin-right: 25px;
   }
