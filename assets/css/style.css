@@ -40,9 +40,10 @@ body {
   
   h1 {
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
+    text-align: center;
   }
   
   h2,
@@ -50,6 +51,16 @@ body {
     font-size: 22px;
   }
   
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+  }
   /* header */
   
   #masthead {
@@ -133,6 +144,15 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
+  .mainSection-contact {
+    width: 100%;
+    max-width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    margin: 0 0 40px;
+  }
   
   /* portfolio page */
   
@@ -140,7 +160,7 @@ body {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 15px 0 30px 100px;
     overflow: auto;
   }
   
@@ -178,42 +198,10 @@ body {
   
   /* contact page */
   
-  #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
+  .btn-color {
     background: #4aaaa5;
-    border: 0 none;
+    color: #ffffff;
+    width: 110px
   }
 
   @media screen and (max-width: 980px) {
