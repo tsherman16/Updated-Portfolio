@@ -130,6 +130,10 @@ body {
   
   /* main */
   
+.card {
+  margin-top: 10vh;
+}
+
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
